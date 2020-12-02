@@ -73,7 +73,7 @@ for tweet in range(0, len(X)):
     processed_tweet = re.sub(r'\bx[a-z0-9]{1,2}\b',' ',processed_tweet)
     word_token = nltk.word_tokenize(processed_tweet)
     #Perform Stemming
-    processed_tweet = lancaster.stem(processed_tweet)
+    #processed_tweet = lancaster.stem(processed_tweet)
     ## stemmed_words = [ps.stem(w) for w in word_token]
     lemmatizer = WordNetLemmatizer()
     lemma_words = [lemmatizer.lemmatize(w, pos='n') for w in word_token]

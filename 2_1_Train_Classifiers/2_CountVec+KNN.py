@@ -2,7 +2,7 @@
 """
 Created on Wed Oct  7 12:28:55 2020
 
-@author: Jiahe Zhang, ShaoqianChen
+@author: ShaoqianChen, Jiahe Zhang
 """
 
 #importing libraries
